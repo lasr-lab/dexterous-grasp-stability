@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Temporal Visuo-Tactile Learning for Dexterous Grasp Stability</title>
+  <meta name="description" content="Temporal vision, touch, and proprioception for dexterous grasp stability prediction. A study of 10,000 multi-fingered grasp trials across 200 objects by LASR Lab, TU Dresden.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Temporal Visuo-Tactile Learning for Dexterous Grasp Stability">
+  <meta property="og:description" content="Learning to predict grasp stability and guide lift-or-regrasp decisions with rich fingertip sensing.">
+  <meta property="og:url" content="https://lasr-lab.github.io/dexterous-grasp-stability/">
+  <meta property="og:image" content="https://lasr-lab.github.io/dexterous-grasp-stability/images/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Vision, proprioception, and four Digit 360 tactile streams feed a temporal stability predictor that decides whether to lift or regrasp.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://lasr-lab.github.io/dexterous-grasp-stability/">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#overview">Skip to research overview</a>
+  <main class="page" id="top">
+    <header class="paper-header">
+      <h1>Temporal Visuo-Tactile Learning<br class="title-break"> for Dexterous Grasp Stability</h1>
+      <ul class="authors" aria-label="Authors">
+        <li><a href="https://www.linkedin.com/in/knakahara/" target="_blank" rel="noopener noreferrer">Ken Nakahara</a></li>
+        <li>Aleksei Buvailik</li>
+        <li>Prokhor Kotov</li>
+        <li><a href="https://www.robertocalandra.com/about/" target="_blank" rel="noopener noreferrer">Roberto Calandra</a></li>
+      </ul>
+      <p class="affiliation"><a href="https://lasr.org/" target="_blank" rel="noopener noreferrer">LASR Lab</a>, <a href="https://tu-dresden.de/?set_language=en" target="_blank" rel="noopener noreferrer">TU Dresden</a>, Germany</p>
+      <!-- Resource icons: Feather v4.29.2 (MIT); see NOTICE. -->
+      <nav class="publication-links" aria-label="Publication resources">
+        <span class="button" role="link" aria-disabled="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          Paper (coming soon)
+        </span>
+        <a class="button" href="https://github.com/lasr-lab/dexterous-grasp-stability" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          Code
+        </a>
+        <span class="button" role="link" aria-disabled="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          Data (coming soon)
+        </span>
+        <a class="button" href="https://www.youtube.com/watch?v=9b29rSzqaKw" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+          Video
+        </a>
+      </nav>
+    </header>
+
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/9b29rSzqaKw" title="Temporal Visuo-Tactile Learning for Dexterous Grasp Stability — project video" width="720" height="405" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <p class="video-caption"><a href="https://www.youtube.com/watch?v=9b29rSzqaKw" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>
+
+    <section id="overview" aria-labelledby="overview-title">
+      <h2 id="overview-title">Overview</h2>
+      <figure>
+        <img src="images/overview.svg" width="10120" height="4990" decoding="async" alt="Vision, proprioception, and four Digit 360 tactile streams feed a temporal stability predictor. A sufficiently high stability score leads to lifting; otherwise the robot releases and regrasps.">
+      </figure>
+      <div class="text">
+        <p>Stable grasping with a multi-fingered hand depends on how contacts form and evolve as the fingers close around an object. We investigate how high-resolution, dynamic tactile sensing supports grasp stability prediction and model-guided grasping. Using a dataset of 10,000 grasp trials across 200 objects, we train temporal multimodal models to predict post-lift stability from pre-lift observations. On the robot, the learned predictor acts as an online stability gate: the robot lifts when confidence is high and otherwise releases its grip and attempts a regrasp.</p>
+      </div>
+    </section>
+
+    <section id="hardware" aria-labelledby="hardware-title">
+      <h2 id="hardware-title">Hardware Setup</h2>
+      <figure>
+        <img src="images/hardware.svg" width="8920" height="4310" loading="lazy" decoding="async" alt="Hardware setup: an xArm7 with a four-fingered Tilburg Hand, a Digit 360 sensor on each fingertip, and an external RealSense D435i camera on a stationary arm.">
+      </figure>
+      <div class="text">
+        <p>Our platform uses a 7-DoF xArm7 with a four-fingered, 16-DoF Tilburg Hand. Each fingertip carries a Digit 360 sensor that records tactile images, audio, inertial measurements, and pressure. A RealSense D435i RGB-D camera on a stationary arm provides an external view of the workspace. Visual observations, hand and arm proprioception, and fingertip tactile streams are recorded continuously throughout each grasp trial.</p>
+      </div>
+    </section>
+
+    <section id="method" aria-labelledby="method-title">
+      <h2 id="method-title">Temporal Multimodal Learning</h2>
+      <figure>
+        <img src="images/model-architecture.svg" width="16230" height="6640" loading="lazy" decoding="async" alt="Modality-specific video and sequence encoders feed tactile attention across modalities, time, and fingers, followed by cross-modal attention to predict grasp success.">
+      </figure>
+      <div class="text">
+        <p>The model observes a pre-lift window anchored at grasp initiation. VideoMAEv2 backbones encode external RGB and tactile image sequences, while Transformer branches encode proprioception and other tactile streams. Tactile features are integrated across modalities, time, and fingers, then fused with vision and proprioception to predict the probability of a stable grasp.</p>
+        <p>During deployment, the robot lifts only when the predicted probability exceeds a fixed threshold. Otherwise, it opens the hand, adjusts the end-effector position, and samples another grasp. This uses learned contact cues without explicit contact or force modeling.</p>
+      </div>
+    </section>
+
+    <section id="dataset" aria-labelledby="dataset-title">
+      <h2 id="dataset-title">Data Collection</h2>
+      <figure>
+        <img src="images/data-collection.svg" width="5360" height="1910" loading="lazy" decoding="async" alt="Data collection proceeds through object localization, randomized reaching and grasping, lifting, automatic stability labeling, and resetting, with continuous multimodal recording.">
+      </figure>
+      <div class="text">
+        <p>We designed an automated data collection procedure comprising object localization, randomized reaching and grasping, lifting, stability labeling, and resetting. A trial is labeled successful when the object is lifted and held for three seconds without dropping.</p>
+      </div>
+      <div class="pair-grid">
+        <figure class="clip">
+          <video src="videos/data_collection.mp4" data-clip muted loop playsinline preload="metadata" controls width="1080" height="1080" aria-label="The robot localizing an object, reaching, grasping, lifting, and resetting during automated data collection."></video>
+          <figcaption>One automated trial: localize, reach and grasp, lift, label, reset.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/object-collage.svg" width="3960" height="3696" loading="lazy" decoding="async" alt="The 200 everyday objects used for data collection, including toys, tools, bottles, and household items.">
+          <figcaption>The 200 objects used to collect 10,000 grasp trials.</figcaption>
+        </figure>
+      </div>
+      <div class="text">
+        <p>The dataset of 10,000 grasp trials covers 200 objects with diverse shapes, sizes, and materials. The outcomes are nearly balanced: 47.1% stable and 52.9% unstable trials. Each trial records external RGB frames, proprioception, tactile images, audio, IMU, pressure, and commanded actions asynchronously throughout the full grasp attempt, together with phase start times. These recordings can be resampled over any interval into synchronized multimodal sequences; the pre-lift window used in this paper is one example. This flexibility supports broader uses, including contact dynamics modeling and multimodal representation learning.</p>
+      </div>
+    </section>
+
+    <section id="results" aria-labelledby="results-title">
+      <h2 id="results-title">Results</h2>
+      <h3>Effect of Sensing Modalities and Backbone Design</h3>
+      <figure>
+        <img src="images/validation-results.svg" width="7776" height="2412" loading="lazy" decoding="async" alt="Prediction accuracy across sensing modalities and backbone designs. Temporal touch-enabled models perform best, with vision, proprioception, and touch achieving 83.55 percent mean accuracy.">
+        <figcaption>Mean prediction accuracy across sensing modalities and backbones.</figcaption>
+      </figure>
+      <div class="text">
+        <p>We evaluate stability prediction using 5-fold object-disjoint cross-validation, holding out all trials from each validation object. Touch-enabled models achieve the highest mean accuracies in the VideoMAEv2-based modality comparison. Removing touch from the vision-proprioception-touch model reduces accuracy by 3.99 percentage points, from 83.55% to 79.56%, supporting the value of local contact cues. For vision-proprioception-touch inputs, the static single-frame baseline achieves 79.79% accuracy, compared with 81.42% for ResNet-Transformer and 83.55% for VideoMAEv2, suggesting the value of expressive temporal modeling.</p>
+        <p>The following controlled input ablations examine spatial contact detail and temporal tactile information while keeping the VideoMAEv2-based architecture and training protocol fixed. Each condition is trained separately, with the same input modification applied during training and evaluation.</p>
+      </div>
+
+      <h3>Effect of Tactile Spatial Resolution</h3>
+      <figure class="figure-spatial">
+        <img src="images/tactile-spatial-ablation.svg" width="4032" height="2304" loading="lazy" decoding="async" alt="Mean grasp stability prediction accuracy rises steeply from 79.40 percent at 1 by 1 tactile resolution to 82.51 percent at 28 by 28, then improves more gradually, reaching 83.55 percent at both 112 by 112 and 224 by 224. The non-tactile baseline achieves 79.56 percent.">
+        <figcaption>Mean accuracy across tactile-image resolutions. The dashed line shows the non-tactile baseline.</figcaption>
+      </figure>
+      <div class="text">
+        <p>We area-downsample tactile frames to lower resolutions and bilinearly restore them to 224 &times; 224 before encoding, keeping all other inputs and training settings fixed. At 1 &times; 1, only mean RGB values remain, yielding 79.40% accuracy, close to the non-tactile baseline. Accuracy improves sharply up to 28 &times; 28, then more gradually, reaching 83.55% at both 112 &times; 112 and 224 &times; 224, supporting the value of spatial contact detail.</p>
+      </div>
+
+      <h3>Effect of Temporal Observations</h3>
+      <figure class="figure-temporal">
+        <img src="images/temporal-ablation-a.svg" width="4032" height="1433" loading="lazy" decoding="async" alt="Temporal input ablations in single-modality models. Repeating the final observation lowers vision-only accuracy from 79.66 to 72.47 percent and touch-only from 82.64 to 77.53 percent, while proprioception-only stays at about 80 percent.">
+        <figcaption>Temporal input ablations in single-modality models.</figcaption>
+      </figure>
+      <div class="text">
+        <p>Repeating a stream's final observation throughout the window preserves the final grasp state while removing its temporal variation. Applied to single-modality models, it lowers vision-only accuracy from 79.66% to 72.47% and touch-only from 82.64% to 77.53%, while proprioception-only is nearly unchanged at about 80%.</p>
+      </div>
+      <figure class="figure-temporal">
+        <img src="images/temporal-ablation-b.svg" width="4032" height="1692" loading="lazy" decoding="async" alt="Temporal input ablations in the vision-proprioception-touch model: full sequences achieve 83.55 percent accuracy; repeating the final tactile observation lowers accuracy to 81.48 percent; jointly permuting vision and tactile-camera frames gives 81.93 percent.">
+        <figcaption>Temporal input ablations in the vision-proprioception-touch model. V: vision; P: proprioception; T: touch.</figcaption>
+      </figure>
+      <div class="text">
+        <p>In the vision-proprioception-touch model, repeating vision or proprioception has little effect, whereas repeating touch lowers accuracy by 2.07 percentage points, from 83.55% to 81.48%.</p>
+        <p>Applying the same random permutation to the external RGB and four tactile-camera clips preserves all frames and their alignment across image streams, but disrupts their temporal order. Accuracy falls to 81.93%, a 1.62-point reduction. These results support the value of tactile dynamics and temporal structure beyond the final contact state.</p>
+      </div>
+
+      <h3>Real-Robot Grasping Evaluation</h3>
+      <figure>
+        <img src="images/model-deployment.svg" width="6384" height="2362" loading="lazy" decoding="async" alt="Executed-lift success for direct lifting, a random gate, a non-tactile gate, and a tactile gate on 20 unseen objects. The tactile gate achieves 82 percent overall success.">
+        <figcaption>Success among executed lifts on 20 unseen objects, with 10 lifts per object and policy.</figcaption>
+      </figure>
+      <div class="text">
+        <p>We deploy the learned predictors on the real robot as online stability gates that decide whether to lift or regrasp. On 20 unseen objects, the tactile stability gate achieves 82.0% success among executed lifts (164/200), improving on the non-tactile gate by 10.5 percentage points.</p>
+      </div>
+      <div class="clip-grid">
+        <figure class="clip">
+          <video src="videos/deployment_baseball.mp4" data-clip muted loop playsinline preload="metadata" controls width="1080" height="1080" aria-label="The robot grasping and lifting a baseball under the tactile stability gate."></video>
+          <figcaption>Baseball</figcaption>
+        </figure>
+        <figure class="clip">
+          <video src="videos/deployment_bulb.mp4" data-clip muted loop playsinline preload="metadata" controls width="1080" height="1080" aria-label="The robot grasping and lifting a light bulb under the tactile stability gate."></video>
+          <figcaption>Light bulb</figcaption>
+        </figure>
+        <figure class="clip">
+          <video src="videos/deployment_matcha_can.mp4" data-clip muted loop playsinline preload="metadata" controls width="1080" height="1080" aria-label="The robot grasping and lifting a matcha can under the tactile stability gate."></video>
+          <figcaption>Matcha can</figcaption>
+        </figure>
+      </div>
+      <div class="text">
+        <p>The videos above show example grasping sequences leading to successful lifts with the tactile stability gate. Qualitatively, contact cues from multiple fingers appeared to help identify partial or off-center grasps, particularly on visually ambiguous objects such as the light bulb.</p>
+        <p>The paper (coming soon on arXiv) provides more detailed experimental results and additional analyses not shown here, including the effects of dataset size, tactile submodalities, and finger-specific inputs, as well as the relationship between fingertip contacts and grasp success.</p>
+      </div>
+    </section>
+
+    <section id="summary" aria-labelledby="summary-title">
+      <h2 id="summary-title">Summary</h2>
+      <div class="text">
+        <ul>
+          <li>We collect a dataset of 10,000 multimodal dexterous grasp trials across 200 everyday objects using four Digit 360 fingertips. Vision, proprioception, touch, and commanded actions are continuously recorded throughout each grasp, with phase annotations and stability labels supporting reuse beyond grasp stability prediction.</li>
+          <li>We systematically study what drives grasp stability prediction from pre-lift sequences of vision, proprioception, and touch. Modality and encoding comparisons, together with controlled analyses of tactile spatial resolution and temporal observations, show that high-resolution, dynamic touch provides a particularly strong stability signal.</li>
+          <li>We deploy the learned predictor on the real robot to guide online decisions to lift or regrasp. On 20 unseen objects, the tactile stability gate achieves 82.0% success among executed lifts, exceeding the non-tactile gate by 10.5 percentage points.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="bibtex" aria-labelledby="bibtex-title">
+      <h2 id="bibtex-title">BibTeX</h2>
+      <div class="text">
+        <div class="citation-block">
+          <button class="copy-bibtex" type="button" aria-label="Copy BibTeX citation" aria-controls="bibtex-code" hidden>
+            <!-- Copy icon: Feather v4.29.2 (MIT); see NOTICE. -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span>Copy</span>
+          </button>
+          <pre class="bibtex" tabindex="0" role="region" aria-label="BibTeX citation; scroll horizontally to read long lines"><code id="bibtex-code">@unpublished{nakahara2026temporal,
+  title   = {Temporal Visuo-Tactile Learning for Dexterous Grasp Stability},
+  author  = {Nakahara, Ken and Buvailik, Aleksei and
+             Kotov, Prokhor and Calandra, Roberto},
+  note    = {Manuscript; arXiv preprint forthcoming},
+  year    = {2026}
+}</code></pre>
+        </div>
+        <span id="copy-status" class="visually-hidden" role="status" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section id="acknowledgments" aria-labelledby="acknowledgments-title">
+      <h2 id="acknowledgments-title">Acknowledgments</h2>
+      <div class="text">
+        <p>This work was partly supported by the project GeniusRobot (01IS24083) funded by the Federal Ministry of Research, Technology and Space (BMFTR), by BMFTR in the DAAD project 57616814 (SECAI, School of Embedded Composite AI), by BMFTR under the Robotics Institute Germany (RIG), and by the German Research Foundation (DFG) under the Cluster of Excellence CARE: Climate-Neutral And Resource-Efficient Construction (EXC 3115, project number 533767731).</p>
+        <p>We thank the ZIH at TU Dresden for providing computing resources.</p>
+      </div>
+    </section>
+    <footer><span><a href="https://lasr.org/" target="_blank" rel="noopener noreferrer">LASR Lab</a> · <a href="https://tu-dresden.de/?set_language=en" target="_blank" rel="noopener noreferrer">TU Dresden</a></span><a href="#top">Back to top ↑</a><span class="license">This <a href="https://github.com/lasr-lab/dexterous-grasp-stability/tree/main/docs" target="_blank" rel="noopener noreferrer">project page template</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-SA 4.0</a>.</span></footer>
+  </main>
+</body>
+</html>

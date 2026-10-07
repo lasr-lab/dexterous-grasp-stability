@@ -1,0 +1,9 @@
+# Required by both data_viewer.py and resample.py
+h5py>=3.10
+numpy>=1.24
+pandas>=2.0
+opencv-python>=4.8
+
+# Required by resample.py only, and by far the largest install (~4.6 GB with the
+# bundled CUDA libraries). Drop this line if you only want to browse the data.
+torch

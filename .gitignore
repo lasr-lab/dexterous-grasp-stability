@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+node_modules/
+.venv/
+*.log
+
+# Downloaded data and generated samples
+/src/data/grasp_data/*
+!/src/data/grasp_data/.keep
+/src/data/object_pictures_jpg_square/*
+!/src/data/object_pictures_jpg_square/.keep
+/src/data/resampled_grasp_data/*
+!/src/data/resampled_grasp_data/.keep
+/src/data/*.zip
+/src/data/*.tar
+/src/data/*.tar.gz
+/src/data/*.tgz
+
+# Local Python artifacts
+*.py[cod]
+.ruff_cache/
+venv/
+env/

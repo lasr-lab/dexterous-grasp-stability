@@ -1,0 +1,95 @@
+:root {
+  --content-width: 720px;
+  --divider: #d4d4d4;
+  --surface: #f3f3f3;
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #252525;
+  background: #fff;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-size: 16px; line-height: 1.6; }
+a { color: #0076ad; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible, button:focus-visible, pre:focus-visible { outline: 2px solid #0076ad; outline-offset: 5px; }
+[hidden] { display: none !important; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+img { display: block; width: 100%; height: auto; }
+.page { max-width: 1000px; min-height: 100vh; margin: 0 auto; padding: 42px 20px 24px; background: #fff; }
+.skip-link { position: fixed; z-index: 20; top: 8px; left: 8px; padding: 8px 14px; background: white; transform: translateY(-200%); }
+.skip-link:focus { transform: none; }
+.paper-header { text-align: center; margin-bottom: 26px; }
+h1 { margin: 0 0 26px; font-size: 34px; line-height: 1.4; font-weight: 700; }
+.authors { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 20px; }
+.authors a, .affiliation a { color: inherit; }
+.affiliation { margin: 20px 0 26px; }
+.publication-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 10px 16px; min-height: 44px; color: #454545; background: var(--surface); border-radius: 5px; }
+.button[href]:hover { background: #e8e8e8; text-decoration: none; }
+.button[aria-disabled="true"] { color: #707070; cursor: default; }
+.button svg { width: 17px; height: 17px; flex-shrink: 0; }
+.video-container { max-width: var(--content-width); margin: 0 auto; aspect-ratio: 16/9; background: var(--surface); }
+.video-container iframe { display: block; width: 100%; height: 100%; border: 0; }
+.video-caption { text-align: center; font-size: 13px; margin: 8px 0 0; }
+.clip { margin: 0 auto; }
+.clip video { display: block; width: 100%; height: auto; aspect-ratio: 1/1; border-radius: 4px; background: var(--surface); }
+.clip-grid, .pair-grid { display: grid; align-items: start; gap: 16px; max-width: var(--content-width); margin: 30px auto 0; }
+.clip-grid { grid-template-columns: repeat(3, 1fr); }
+.pair-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
+section { max-width: var(--content-width); margin: 42px auto 0; border-top: 1px solid var(--divider); padding-top: 34px; scroll-margin-top: 24px; }
+h2 { font-size: 28px; line-height: 1.5; font-weight: 700; text-align: center; margin: 0 0 26px; }
+h3 { font-size: 20px; line-height: 1.5; font-weight: 700; text-align: left; margin: 30px 0 26px; }
+figure { margin: 0 auto; }
+h2 + figure, h3 + figure { margin-top: 30px; }
+.figure-spatial img { max-width: 520px; margin-inline: auto; }
+.figure-temporal img { max-width: 640px; margin-inline: auto; }
+figcaption { margin: 12px auto 0; color: #606060; text-align: center; font-size: 14px; line-height: 1.5; }
+.text { margin: 26px auto; }
+.text p { margin: 0 0 16px; text-align: justify; }
+.text p:last-child { margin-bottom: 0; }
+.text ul { margin: 0; padding-left: 23px; }
+.text li + li { margin-top: 8px; }
+strong { font-weight: 600; }
+.citation-block { position: relative; }
+.bibtex { max-width: 100%; margin: 0; padding: 20px; background: var(--surface); border-radius: 4px; white-space: pre; overflow-x: auto; overflow-wrap: normal; scrollbar-width: thin; scrollbar-color: #bfc3c7 #ededed; font-size: 13px; line-height: 1.65; }
+.bibtex code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; font-size: inherit; }
+.bibtex::-webkit-scrollbar { height: 8px; }
+.bibtex::-webkit-scrollbar-track { background: #ededed; }
+.bibtex::-webkit-scrollbar-thumb { background: #bfc3c7; border-radius: 4px; }
+.copy-bibtex { position: absolute; top: 10px; right: 10px; display: inline-flex; align-items: center; gap: 6px; padding: 6px 9px; border: 1px solid #dedede; border-radius: 4px; color: #555; background: #fff; font: 12px Arial, Helvetica, sans-serif; cursor: pointer; }
+.copy-bibtex:hover { color: #252525; background: #ededed; }
+.copy-bibtex svg { width: 14px; height: 14px; }
+footer { max-width: var(--content-width); border-top: 1px solid var(--divider); margin: 40px auto 0; padding-top: 20px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 13px; color: #666; }
+footer a { color: #666; }
+.license { flex-basis: 100%; }
+
+@media (min-width: 1040px) {
+  :root { background: #ededed; }
+  .page { margin-block: 24px; min-height: calc(100vh - 48px); border: 1px solid #dedede; border-radius: 6px; }
+}
+
+@media (max-width: 700px) {
+  .page { padding: 32px 20px 24px; }
+  h1 { font-size: 28px; line-height: 1.35; margin-bottom: 22px; }
+  .title-break { display: none; }
+  .authors { font-size: 15px; gap: 6px 16px; }
+  .affiliation { font-size: 14px; max-width: 440px; margin: 18px auto 24px; }
+  .text p { text-align: left; }
+  section { margin-top: 34px; padding-top: 28px; }
+  h2 { font-size: 25px; }
+  h3 { font-size: 19px; }
+  figcaption { font-size: 13px; }
+  .clip-grid, .pair-grid { grid-template-columns: 1fr; max-width: 380px; gap: 22px; }
+  .copy-bibtex { display: none; }
+}
+
+@media (max-width: 420px) {
+  .page { padding-inline: 16px; }
+  h1 { font-size: 25px; }
+  .authors { display: grid; grid-template-columns: 1fr 1fr; gap: 5px 10px; font-size: 14px; }
+  .publication-links { gap: 10px; }
+  .button { padding: 10px 14px; font-size: 15px; }
+  body { font-size: 15px; }
+}

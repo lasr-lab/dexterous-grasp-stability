@@ -1,0 +1,201 @@
+object_name,picture,text_prompt_for_sam3,primary_material,secondary_materials,compliance,weight_g,width_mm,depth_mm,height_mm,num_successful_trials,num_trials,success_rate
+apple,apple.jpg,apple,food,-,0,178.24,73,70,76,11,34,0.3235
+bag_of_bread,bag_of_bread.jpg,yellow and red pack,plastic,food,1,128.57,63,95,95,48,101,0.4752
+balea_cream,balea_cream.jpg,blue-colored tube of cream,plastic,-,0,59.22,39,33,107,16,74,0.2162
+barilla_pesto,barilla_pesto.jpg,green glass can with blue top,glass,metal,0,156.21,62,62,102,16,45,0.3556
+beige_wicker_ball,beige_wicker_ball.jpg,beige ball,wood,-,0,10.38,53,58,62,17,33,0.5152
+big_blue_block,big_blue_block.jpg,blue block,plastic,-,0,31.32,60,35,50,24,43,0.5581
+black_cardboard_box,black_cardboard_box.jpg,black box,paper,-,1,23.09,80,80,50,21,31,0.6774
+black_cylinder,black_cylinder.jpg,black cylinder,plastic,-,0,48.21,80,80,65,24,41,0.5854
+black_deodorant_can,black_deodorant_can.jpg,small black cylindrical object,metal,plastic,0,41.69,35,35,90,25,56,0.4464
+black_digital_clock,black_digital_clock.jpg,small black rectangular object,plastic,-,0,137.68,135,45,75,13,28,0.4643
+black_funnel,black_funnel.jpg,small black plastic object,plastic,-,0,24.61,65,140,65,22,56,0.3929
+black_hair_dryer_nozzle,black_hair_dryer_nozzle.jpg,small black plastic object,plastic,-,0,28.76,90,55,60,26,64,0.4062
+black_jug_cap,black_jug_cap.jpg,small black plastic object,plastic,-,0,26.31,65,65,48,20,51,0.3922
+black_penguin,black_penguin.jpg,black and white toy,silicone,-,1,23.76,50,43,60,16,34,0.4706
+black_pig,black_pig.jpg,black round toy,silicone,plastic,1,109.18,91,102,94,14,29,0.4828
+black_tape_roll,black_tape_roll.jpg,black tape roll,plastic,-,0,59.7,90,90,40,70,99,0.7071
+black_universal_plug_adapter,black_universal_plug_adapter.jpg,small black rectangular object,plastic,metal,0,184.81,47,75,54,5,29,0.1724
+black_webbing_roll,black_webbing_roll.jpg,small rounded black item,textile,-,1,73.98,27,69,69,17,51,0.3333
+blue_and_green_sponge,blue_and_green_sponge.jpg,sponge,sponge,-,1,7.54,90,70,40,33,44,0.75
+blue_ball,blue_ball.jpg,blue ball,sponge,-,1,18.15,70,70,70,19,30,0.6333
+blue_cotton_swab_container,blue_cotton_swab_container.jpg,light blue plastic cylindrical object,plastic,-,1,38.66,76,76,83,23,45,0.5111
+blue_lunchbox_insert,blue_lunchbox_insert.jpg,blue plastic object,plastic,-,1,38.8,128,60,50,20,26,0.7692
+blue_monkey,blue_monkey.jpg,blue toy,silicone,-,1,19.42,53,38,62,17,32,0.5312
+blue_rounded_lunchbox_insert,blue_rounded_lunchbox_insert.jpg,blue plastic object,plastic,-,0,42.51,128,50,50,11,27,0.4074
+blue_spiky_ball,blue_spiky_ball.jpg,blue spiky ball,silicone,-,1,22.81,60,60,60,23,32,0.7188
+blue_whale,blue_whale.jpg,a mostly blue rounded toy with some white,silicone,-,1,23.64,64,44,52,48,77,0.6234
+brown_walrus,brown_walrus.jpg,brown round toy,silicone,-,1,28.75,60,65,60,36,51,0.7059
+brown_wicker_ball,brown_wicker_ball.jpg,brown wicker ball,wood,-,0,29.14,80,80,71,14,32,0.4375
+brown_wine_stopper,brown_wine_stopper.jpg,small brown object,plastic,rubber,0,22.21,30,30,65,6,26,0.2308
+bundled_brownies,bundled_brownies.jpg,small dark item with bright edges,plastic,-,1,61.35,40,41,66,24,51,0.4706
+bundled_peppercorn_packet,bundled_peppercorn_packet.jpg,small bundled object,plastic,-,1,35.08,60,30,40,19,38,0.5
+bundled_reusable_bag,bundled_reusable_bag.jpg,bundled black object,textile,-,1,96.86,65,145,65,13,62,0.2097
+champagne_cork,champagne_cork.jpg,a champagne cork,cork,-,0,8.69,30,30,47,14,30,0.4667
+chili_pepper_can,chili_pepper_can.jpg,can with gold lid,metal,-,0,21.36,37,37,65,18,39,0.4615
+cocktail_jigger,cocktail_jigger.jpg,small metal jigger,metal,-,0,28.65,40,40,69,17,38,0.4474
+coffee_drink_bottle,coffee_drink_bottle.jpg,bottle,plastic,-,0,23.08,57,57,131,30,51,0.5882
+colorful_spiky_ball,colorful_spiky_ball.jpg,colorful spiky toy ball,silicone,-,1,64.08,76,76,76,20,32,0.625
+cord_wrapped_mouse,cord_wrapped_mouse.jpg,computer mouse,plastic,metal,0,155.36,75,134,69,5,37,0.1351
+cream_box,cream_box.jpg,small white box,paper,-,1,10.35,40,60,120,45,67,0.6716
+cream_container_with_pink_lid,cream_container_with_pink_lid.jpg,a container with a pink lid,plastic,-,0,77.23,58,58,55,10,35,0.2857
+cream_tube,cream_tube.jpg,pastel-colored tube of cream,metal,-,1,59.44,115,34,24,11,35,0.3143
+crumpled_paper,crumpled_paper.jpg,crumpled paper,paper,-,1,9.75,48,52,58,23,53,0.434
+curved_glasses_case,curved_glasses_case.jpg,small extended item,leather,-,0,61.73,55,43,153,53,81,0.6543
+dark_blue_deodorant,dark_blue_deodorant.jpg,dark blue jar,glass,plastic,0,123.42,40,40,105,11,50,0.22
+dark_rubber_duck,dark_rubber_duck.jpg,grey rubber toy duck,silicone,-,1,43.65,74,85,75,8,14,0.5714
+dessert_cup_with_circular_lid,dessert_cup_with_circular_lid.jpg,dark and small rounded item,plastic,-,0,7.23,56,55,55,63,106,0.5943
+dessert_cup_with_rectangular_lid,dessert_cup_with_rectangular_lid.jpg,small item,plastic,-,0,5.32,59,46,46,55,92,0.5978
+digit_sensor_mount,digit_sensor_mount.jpg,rounded black item,plastic,-,0,55.03,82,32,40,18,51,0.3529
+elbflorenz_tea_tin,elbflorenz_tea_tin.jpg,white rectangular object with a gray lid,metal,-,0,106.4,70,70,125,13,42,0.3095
+espresso_cup,espresso_cup.jpg,white cup,ceramic,-,0,165.86,85,65,55,15,37,0.4054
+espresso_cup_with_golden_handle,espresso_cup_with_golden_handle.jpg,small white cup,ceramic,-,0,118.24,71,90,59,20,53,0.3774
+filled_white_plastic_pouch,filled_white_plastic_pouch.jpg,small white item,plastic,-,1,42.92,49,79,143,20,51,0.3922
+foaming_pump_bottle,foaming_pump_bottle.jpg,transparent plastic bottle,plastic,-,0,25.97,36,36,130,15,34,0.4412
+foil_ball,foil_ball.jpg,small foil ball,metal,-,1,8.11,59,59,59,40,85,0.4706
+fruit_yogurt,fruit_yogurt.jpg,small yellow or white item,plastic,-,0,2.77,50,38,38,37,45,0.8222
+glasses_case,glasses_case.jpg,small black rounded extended object,leather,-,0,107.34,62,40,154,14,32,0.4375
+gray_shark,gray_shark.jpg,grey toy,rubber,-,1,25.04,70,80,50,14,36,0.3889
+gray_stone_cylinder,gray_stone_cylinder.jpg,gray cylindrical block,stone,-,0,38.46,27,27,69,12,36,0.3333
+green_bottle_cap,green_bottle_cap.jpg,light green object,plastic,-,0,16.29,50,50,52,13,46,0.2826
+green_metal_cup,green_metal_cup.jpg,green metal cup,metal,-,0,132.05,75,75,100,13,46,0.2826
+green_sharpener,green_sharpener.jpg,green object,plastic,-,0,21.29,43,43,52,14,28,0.5
+green_tuna_can,green_tuna_can.jpg,can,metal,-,0,228.77,85,85,43,8,30,0.2667
+green_turtle,green_turtle.jpg,green toy,rubber,-,1,25.56,77,63,38,15,34,0.4412
+half_blue_and_green_sponge,half_blue_and_green_sponge.jpg,sponge,sponge,-,1,3.65,70,45,40,22,42,0.5238
+half_toilet_paper_tube,half_toilet_paper_tube.jpg,cardboard tube,paper,-,1,2.19,40,40,48,21,41,0.5122
+hazelnut_flavored_milk_bottle,hazelnut_flavored_milk_bottle.jpg,bottle,plastic,-,0,22.22,68,68,153,39,71,0.5493
+isana_hair_wax,isana_hair_wax.jpg,red and grey round container,plastic,-,0,93.18,61,61,48,14,37,0.3784
+kefir_bottle,kefir_bottle.jpg,bottle,plastic,-,0,40.21,72,72,153,22,53,0.4151
+lens_cleaner_bottle,lens_cleaner_bottle.jpg,small plastic bottle,plastic,-,0,31.96,30,30,110,10,41,0.2439
+lens_cleaner_box,lens_cleaner_box.jpg,white box,paper,-,1,67.29,50,57,104,31,47,0.6596
+light_blue_cap,light_blue_cap.jpg,a plastic cap,plastic,-,1,8.51,55,55,55,20,39,0.5128
+light_blue_quarter_circle_block,light_blue_quarter_circle_block.jpg,light green block,silicone,-,1,37,54,54,54,18,35,0.5143
+light_blue_rabbit,light_blue_rabbit.jpg,light blue rabbit toy,silicone,plastic,1,107.33,90,102,125,12,32,0.375
+lint_roller_holder,lint_roller_holder.jpg,plastic cylindrical object in the center,plastic,-,1,21.91,60,60,105,47,75,0.6267
+lint_roller_refill,lint_roller_refill.jpg,white cylindrical object in the center,paper,-,0,63.83,48,48,100,27,65,0.4154
+long_blue_block,long_blue_block.jpg,blue block,plastic,-,0,37.78,120,25,40,16,31,0.5161
+m705_mouse,m705_mouse.jpg,computer mouse,plastic,-,0,85.73,70,110,38,6,31,0.1935
+m720_mouse,m720_mouse.jpg,computer mouse,plastic,-,0,106.62,75,110,42,3,31,0.0968
+mandarin_orange,mandarin_orange.jpg,orange object,food,-,1,132.52,72,70,50,14,34,0.4118
+meta_quest_controller,meta_quest_controller.jpg,white controller,plastic,-,0,102.6,70,125,60,2,28,0.0714
+metal_cylinder_with_mesh_lid,metal_cylinder_with_mesh_lid.jpg,metal cylinder,metal,-,0,66.79,54,54,82,19,35,0.5429
+metal_scrubber,metal_scrubber.jpg,metal woven ball,metal,-,1,19.91,54,54,54,12,38,0.3158
+metal_shot_glass,metal_shot_glass.jpg,metal cylinder on the center,metal,-,0,77.43,38,38,77,12,44,0.2727
+mint_tea_box,mint_tea_box.jpg,green box,paper,-,1,21.76,73,120,65,24,31,0.7742
+moss_ball,moss_ball.jpg,green woven moss ball,moss,wood,0,13.38,78,78,78,25,34,0.7353
+mouse_case,mouse_case.jpg,black rounded item,textile,-,0,76.29,61,105,152,15,50,0.3
+nivea_soft,nivea_soft.jpg,white container,plastic,-,0,42.04,98,98,60,19,33,0.5758
+nutella_jar,nutella_jar.jpg,glass jar w white cap,glass,plastic,0,244.4,96,64,118,12,42,0.2857
+olive_jar,olive_jar.jpg,glass jar,glass,metal,0,180.52,70,70,120,7,27,0.2593
+open_black_box,open_black_box.jpg,black semi-open box,paper,-,1,18.86,43,60,60,22,50,0.44
+orange_and_blue_ball,orange_and_blue_ball.jpg,orange ball,rubber,-,0,83.96,65,65,65,10,28,0.3571
+orange_and_white_fish,orange_and_white_fish.jpg,orange toy,silicone,-,1,21.64,55,68,52,10,32,0.3125
+orange_block,orange_block.jpg,bright orange cube,silicone,-,1,40.25,54,54,54,28,35,0.8
+orange_block_with_colorful_bumps,orange_block_with_colorful_bumps.jpg,orange block with colorful bumps,silicone,-,1,28.41,55,55,55,56,68,0.8235
+orange_lattice_ball,orange_lattice_ball.jpg,orange ball,rubber,-,1,43.37,60,60,60,20,45,0.4444
+orange_pig,orange_pig.jpg,orange toy pig,silicone,-,1,32.37,110,39,57,27,35,0.7714
+orange_quarter_circle_block,orange_quarter_circle_block.jpg,orange block,silicone,-,1,37,54,54,54,9,25,0.36
+orange_table_tennis_ball,orange_table_tennis_ball.jpg,small orange ball,plastic,-,0,2.73,40,40,40,14,53,0.2642
+origami_box,origami_box.jpg,small white box,paper,-,1,7.7,74,74,38,22,38,0.5789
+paco_rabanne_perfume,paco_rabanne_perfume.jpg,black and metal vial,metal,-,0,53.31,50,50,132,22,45,0.4889
+paired_candles,paired_candles.jpg,small white item,plastic,wax; metal,0,77.3,38,73,37,40,91,0.4396
+pale_yellow_block,pale_yellow_block.jpg,cream yellow block,silicone,-,1,80.33,110,55,55,24,30,0.8
+pesto_jar,pesto_jar.jpg,glass can with green top,glass,metal,0,123.79,57,57,109,17,42,0.4048
+pineapple_cup,pineapple_cup.jpg,small round item,plastic,-,0,127.32,56,56,46,54,123,0.439
+pink_owl_plush,pink_owl_plush.jpg,pink and white round object,textile,-,1,23.92,85,65,85,63,111,0.5676
+pink_pig,pink_pig.jpg,pink round toy pig,silicone,plastic,1,101.39,91,102,94,14,34,0.4118
+pink_roof_shaped_block,pink_roof_shaped_block.jpg,pink object,silicone,-,1,60.08,118,54,54,22,35,0.6286
+plastic_wrapped_bun,plastic_wrapped_bun.jpg,plastic-wrapped bun,plastic,food,1,95.19,89,112,48,14,52,0.2692
+playstation_controller,playstation_controller.jpg,black game controller,plastic,rubber,0,218.03,160,105,55,5,31,0.1613
+protein_shot_bottle,protein_shot_bottle.jpg,bottle with white cap,plastic,-,0,22.14,62,62,135,38,100,0.38
+purple_pig,purple_pig.jpg,purple pig,silicone,plastic,1,98.75,86,103,92,17,31,0.5484
+purple_spiky_ball,purple_spiky_ball.jpg,purple spiky ball,plastic,-,0,34.08,62,62,62,59,86,0.686
+quarter_blue_and_green_sponge,quarter_blue_and_green_sponge.jpg,sponge,sponge,-,1,1.94,45,35,40,15,34,0.4412
+red_beer_can,red_beer_can.jpg,red can,metal,-,1,11.94,65,65,115,29,42,0.6905
+red_block,red_block.jpg,red block,plastic,-,1,42.43,54,54,54,63,82,0.7683
+red_bull_can,red_bull_can.jpg,grey can,metal,-,1,104.6,53,53,135,41,55,0.7455
+red_hair_wax_jar,red_hair_wax_jar.jpg,red and white container,plastic,-,0,121.75,68,68,57,28,49,0.5714
+red_sponge,red_sponge.jpg,red object,sponge,-,1,6.54,105,120,45,39,61,0.6393
+red_tape_roll,red_tape_roll.jpg,red roll of tape,plastic,-,0,24.2,56,56,32,21,28,0.75
+rice_pack,rice_pack.jpg,crumpled plastic packet,plastic,-,1,181.49,63,135,61,19,53,0.3585
+roll_of_bags,roll_of_bags.jpg,small extended white item,plastic,-,0,91.87,97,44,44,22,64,0.3438
+rosemary_jar,rosemary_jar.jpg,glass can with green top,glass,plastic,0,104.16,42,42,112,10,39,0.2564
+rubber_baseball,rubber_baseball.jpg,white ball,rubber,-,0,135.47,72,72,72,11,35,0.3143
+screen_cleaning_spray,screen_cleaning_spray.jpg,small extended item,plastic,-,0,18.17,105,29,29,28,75,0.3733
+shoe_brush,shoe_brush.jpg,white yellow brush,plastic,-,1,80.37,56,93,65,20,39,0.5128
+small_blue_block,small_blue_block.jpg,blue block,plastic,-,0,17.21,50,25,40,10,31,0.3226
+small_container_with_purple_lid,small_container_with_purple_lid.jpg,small rounded item,plastic,-,0,32.87,87,87,65,22,52,0.4231
+small_cosmetic_box,small_cosmetic_box.jpg,small box,paper,-,1,5.74,49,49,39,23,27,0.8519
+small_transparent_measuring_cup,small_transparent_measuring_cup.jpg,a small transparent cup,plastic,-,0,9.4,55,35,35,9,28,0.3214
+smooth_green_block,smooth_green_block.jpg,green block,plastic,-,0,39.04,64,32,57,12,29,0.4138
+speckled_table_tennis_ball,speckled_table_tennis_ball.jpg,white ball,plastic,-,0,2.79,39,39,39,11,34,0.3235
+spray_bottle_with_blue_cap,spray_bottle_with_blue_cap.jpg,blue cup and white body extended object,plastic,-,0,26.47,43,43,134,35,72,0.4861
+spray_bottle_with_red_cap,spray_bottle_with_red_cap.jpg,extended object with red cup,plastic,-,0,110.67,38,38,150,12,57,0.2105
+spray_bottle_with_white_cap,spray_bottle_with_white_cap.jpg,bottle,plastic,-,0,18.74,117,47,47,55,94,0.5851
+stack_of_number_cards,stack_of_number_cards.jpg,cards stack,paper,-,0,152.53,57,91,37,19,50,0.38
+stacked_candles,stacked_candles.jpg,white candle,metal,wax,0,40.25,39,45,45,10,42,0.2381
+stapler,stapler.jpg,small black object,plastic,metal,0,77.57,20,95,40,2,25,0.08
+star_patterned_container,star_patterned_container.jpg,small gray and white object,plastic,-,1,77.35,130,80,42,27,35,0.7714
+star_patterned_cotton_swab_container,star_patterned_cotton_swab_container.jpg,plastic container,plastic,-,1,39.94,88,81,77,22,31,0.7097
+tall_beer_can,tall_beer_can.jpg,can,metal,-,1,14.61,65,65,170,22,26,0.8462
+tape_measure,tape_measure.jpg,small black rounded item,plastic,-,0,87.47,59,24,62,19,53,0.3585
+teal_ribbed_ball,teal_ribbed_ball.jpg,teal ball,silicone,-,1,54.79,80,80,82,19,27,0.7037
+textured_green_block,textured_green_block.jpg,green block,plastic,-,0,40.03,64,32,57,11,30,0.3667
+tied_plastic_bag,tied_plastic_bag.jpg,white unformed item,plastic,-,1,44.98,100,160,70,36,82,0.439
+toilet_paper_roll,toilet_paper_roll.jpg,toilet paper roll,paper,-,1,63.19,85,85,96,15,26,0.5769
+toilet_paper_tube,toilet_paper_tube.jpg,cardboard tube,paper,-,1,4.47,40,40,96,26,43,0.6047
+tomato,tomato.jpg,red object,food,-,1,124.94,62,62,48,32,74,0.4324
+toothpick_case,toothpick_case.jpg,small plastic container,plastic,-,0,32.31,35,35,75,25,101,0.2475
+toy_basketball,toy_basketball.jpg,orange ball,plastic,-,1,39.88,70,70,70,35,52,0.6731
+toy_bolt_and_nut,toy_bolt_and_nut.jpg,small black and red object,plastic,-,0,11.1,33,33,54,8,31,0.2581
+toy_carrot,toy_carrot.jpg,small carrot toy,plastic,-,0,25.34,28,28,75,17,78,0.2179
+toy_eggplant,toy_eggplant.jpg,eggplant,plastic,-,1,20.28,94,44,44,32,69,0.4638
+toy_green_bell_pepper,toy_green_bell_pepper.jpg,green toy pepper,plastic,-,1,27.5,59,59,63,30,73,0.411
+toy_green_broccoli,toy_green_broccoli.jpg,green broccoli toy,plastic,-,1,28.91,72,54,62,17,64,0.2656
+toy_hand_grenade,toy_hand_grenade.jpg,black body and orange cup toy,plastic,-,0,90.53,81,51,51,9,29,0.3103
+toy_large_lemon,toy_large_lemon.jpg,yellow lemon,plastic,-,0,17.55,82,56,55,19,36,0.5278
+toy_lime,toy_lime.jpg,small green object,plastic,-,1,12.64,40,65,40,46,100,0.46
+toy_onion,toy_onion.jpg,purple onion,plastic,-,1,19.12,55,54,54,49,84,0.5833
+toy_orange,toy_orange.jpg,small orange,plastic,-,1,15.39,52,52,42,17,67,0.2537
+toy_orange_bell_pepper,toy_orange_bell_pepper.jpg,toy orange pepper,plastic,-,1,27.48,59,59,63,32,78,0.4103
+toy_orange_plum,toy_orange_plum.jpg,orange ball,plastic,-,1,16.98,50,50,55,13,73,0.1781
+toy_pumpkin,toy_pumpkin.jpg,toy pumpkin,plastic,-,1,38.71,82,82,73,32,70,0.4571
+toy_purple_grape,toy_purple_grape.jpg,small dark purple bumped toy,plastic,-,1,24.05,52,52,88,25,68,0.3676
+toy_purple_plum,toy_purple_plum.jpg,purple round object,plastic,-,1,16.09,50,50,50,55,110,0.5
+toy_red_grape,toy_red_grape.jpg,red bumped toy,plastic,-,1,22.91,52,52,88,27,57,0.4737
+toy_red_plum,toy_red_plum.jpg,small red ball,plastic,-,1,20.43,55,55,57,26,79,0.3291
+toy_small_lemon,toy_small_lemon.jpg,lemon,plastic,-,1,13.03,61,42,42,27,72,0.375
+toy_strawberry,toy_strawberry.jpg,red item,plastic,-,1,12.28,48,42,42,30,82,0.3659
+toy_tomato,toy_tomato.jpg,tomato,plastic,-,1,18.18,43,58,58,44,80,0.55
+toy_yellow_bell_pepper,toy_yellow_bell_pepper.jpg,small yellow bell pepper,plastic,-,1,30.62,59,59,63,35,71,0.493
+toy_yellow_plum,toy_yellow_plum.jpg,small yellow object,plastic,-,1,18.46,55,55,50,53,102,0.5196
+translucent_rice_measuring_cup,translucent_rice_measuring_cup.jpg,plastic cup,plastic,-,0,21.15,70,70,65,20,43,0.4651
+transparent_bottle_with_black_cap,transparent_bottle_with_black_cap.jpg,bottle,plastic,-,0,10.25,33,33,100,29,62,0.4677
+transparent_bottle_with_blue_cap,transparent_bottle_with_blue_cap.jpg,bottle,plastic,-,0,14.44,135,52,52,59,83,0.7108
+transparent_jar_with_white_cap,transparent_jar_with_white_cap.jpg,small item,plastic,-,0,17.12,49,49,68,58,80,0.725
+transparent_plastic_container,transparent_plastic_container.jpg,plastic container,plastic,-,0,30.79,75,60,50,25,28,0.8929
+white_and_black_cosmetic_jar,white_and_black_cosmetic_jar.jpg,white and black can,plastic,-,0,31.64,66,66,49,24,33,0.7273
+white_and_yellow_container,white_and_yellow_container.jpg,small white and yellow object,plastic,-,0,87.17,70,70,60,15,35,0.4286
+white_ball_with_petals,white_ball_with_petals.jpg,white textured ball,plastic,-,1,6.12,71,71,71,27,35,0.7714
+white_four_pointed_block,white_four_pointed_block.jpg,white object in the center,plastic,-,0,53.21,55,55,80,20,43,0.4651
+white_hair_dryer_nozzle,white_hair_dryer_nozzle.jpg,white object in the center,plastic,-,0,30.63,90,65,65,16,57,0.2807
+white_magnesium_bottle,white_magnesium_bottle.jpg,white medicine,plastic,-,0,42.64,45,45,70,23,35,0.6571
+white_measuring_spoon,white_measuring_spoon.jpg,small white object,plastic,-,0,5.94,52,100,35,25,98,0.2551
+white_pine_cone,white_pine_cone.jpg,beige woven egg,straw,-,0,8.77,49,49,64,16,28,0.5714
+white_table_tennis_ball,white_table_tennis_ball.jpg,small white ball,plastic,-,0,2.73,40,40,40,19,54,0.3519
+white_textured_ball,white_textured_ball.jpg,white ball,silicone,-,1,68.7,84,84,88,14,27,0.5185
+white_ugreen_charger,white_ugreen_charger.jpg,white charger,plastic,metal,0,121.21,30,100,50,14,55,0.2545
+white_universal_plug_adapter,white_universal_plug_adapter.jpg,white plug,plastic,metal,0,75.82,49,51,74,17,53,0.3208
+white_wine_stopper_box,white_wine_stopper_box.jpg,white box,paper,-,1,8.69,90,30,65,51,75,0.68
+white_yarn_ball,white_yarn_ball.jpg,white ball,textile,-,1,10.39,55,55,55,5,17,0.2941
+wire_spool,wire_spool.jpg,small green item,plastic,-,0,30.1,28,55,55,35,83,0.4217
+wooden_basket,wooden_basket.jpg,wooden basket,wood,-,1,31.83,110,110,100,17,26,0.6538
+wooden_tealight_holder,wooden_tealight_holder.jpg,wooden cylinder,wood,metal,0,57.07,54,54,56,20,31,0.6452
+yellow_ball_with_dimples,yellow_ball_with_dimples.jpg,yellow ball,silicone,-,1,32.25,65,65,65,23,38,0.6053
+yellow_block,yellow_block.jpg,yellow block,silicone,-,1,41.78,54,54,54,29,32,0.9062
+yellow_cotton_swab_container,yellow_cotton_swab_container.jpg,small yellow object,plastic,-,1,25.8,42,42,85,48,115,0.4174
+yellow_flower_shaped_sponge,yellow_flower_shaped_sponge.jpg,yellow object,sponge,-,1,12.78,95,95,35,62,82,0.7561
+yellow_four_pointed_block,yellow_four_pointed_block.jpg,yellow block,wood,-,0,57.88,50,50,80,17,29,0.5862
+yellow_rubber_duck,yellow_rubber_duck.jpg,yellow toy,rubber,-,1,10.07,41,48,52,13,35,0.3714
+yellow_sponge,yellow_sponge.jpg,sponge,sponge,-,1,10.13,88,70,42,22,33,0.6667
