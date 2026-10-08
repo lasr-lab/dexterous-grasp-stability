@@ -1,6 +1,6 @@
 # Project Page
 
-This directory contains the source for the [project page](https://lasr-lab.github.io/dexterous-grasp-stability/) of the paper *Temporal Visuo-Tactile Learning for Dexterous Grasp Stability* (arXiv preprint coming soon).
+This directory contains the source for the [project page](https://lasr-lab.github.io/dexterous-grasp-stability/) of the paper [*Temporal Visuo-Tactile Learning for Dexterous Grasp Stability*](https://arxiv.org/abs/2610.10283).
 
 The design and implementation can be reused for other research projects under the [template license](LICENSE).
 

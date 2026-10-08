@@ -10,9 +10,9 @@ Run the commands below from this directory (`src/`).
 
 ## Download
 
-The dataset will be available on OPARA (coming soon). The instructions below apply once it is released.
+The dataset is available on [OPARA](https://doi.org/10.25532/OPARA-1588). All archives below come from there.
 
-The complete raw dataset is approximately 1.2 TB and will be distributed as **20 zip archives, each containing
+The complete raw dataset is approximately 1.2 TB and is distributed as **20 zip archives, each containing
 10 object directories**. A partial download is fully usable: a subset of the raw-data archives can be
 downloaded and used on its own if 1.2 TB of storage is not available.
 

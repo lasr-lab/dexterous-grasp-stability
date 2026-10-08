@@ -3,7 +3,7 @@
 Ken Nakahara, Aleksei Buvailik, Prokhor Kotov, and Roberto Calandra  
 LASR Lab, TU Dresden, Germany
 
-[Project Page](https://lasr-lab.github.io/dexterous-grasp-stability/) · Paper (coming soon) · Dataset (coming soon) · [YouTube](https://www.youtube.com/watch?v=9b29rSzqaKw)
+[Project Page](https://lasr-lab.github.io/dexterous-grasp-stability/) · [Paper](https://arxiv.org/abs/2610.10283) · [Dataset](https://doi.org/10.25532/OPARA-1588) · [YouTube](https://www.youtube.com/watch?v=9b29rSzqaKw)
 
 <img src="assets/overview.png" width="600"
      alt="Vision, proprioception, and four Digit 360 tactile streams feed a temporal stability predictor that decides whether to lift or regrasp.">
@@ -29,17 +29,20 @@ lifts when confidence is high and regrasps otherwise.
   download instructions. Start here: [`src/README.md`](src/README.md).
 - [`docs/`](docs/) — source for the project page. See [`docs/README.md`](docs/README.md).
 
-The dataset will be available on OPARA (coming soon) and is not part of this repository.
+The dataset is available on [OPARA](https://doi.org/10.25532/OPARA-1588) and is not part of this repository.
 
 ## Citation
 
 ```bibtex
-@unpublished{nakahara2026temporal,
-  title   = {Temporal Visuo-Tactile Learning for Dexterous Grasp Stability},
-  author  = {Nakahara, Ken and Buvailik, Aleksei and
-             Kotov, Prokhor and Calandra, Roberto},
-  note    = {Manuscript; arXiv preprint forthcoming},
-  year    = {2026}
+@misc{nakahara2026temporal,
+  title         = {Temporal Visuo-Tactile Learning for Dexterous Grasp Stability},
+  author        = {Nakahara, Ken and Buvailik, Aleksei and
+                   Kotov, Prokhor and Calandra, Roberto},
+  year          = {2026},
+  eprint        = {2610.10283},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.RO},
+  url           = {https://arxiv.org/abs/2610.10283}
 }
 ```
 

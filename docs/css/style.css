@@ -28,7 +28,6 @@ h1 { margin: 0 0 26px; font-size: 34px; line-height: 1.4; font-weight: 700; }
 .publication-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 10px 16px; min-height: 44px; color: #454545; background: var(--surface); border-radius: 5px; }
 .button[href]:hover { background: #e8e8e8; text-decoration: none; }
-.button[aria-disabled="true"] { color: #707070; cursor: default; }
 .button svg { width: 17px; height: 17px; flex-shrink: 0; }
 .video-container { max-width: var(--content-width); margin: 0 auto; aspect-ratio: 16/9; background: var(--surface); }
 .video-container iframe { display: block; width: 100%; height: 100%; border: 0; }
